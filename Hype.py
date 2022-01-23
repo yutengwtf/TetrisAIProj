@@ -1,5 +1,4 @@
 MINIBATCH_SIZE                      = 32
-REPLAY_MEMORY_SIZE                  = 524256
 TARGET_NETWORK_UPDATE_FREQUENCY     = 8000
 DISCOUNT_FACTOR                     = 0.99
 UPDATE_FREQUENCY                    = 4
@@ -21,9 +20,11 @@ EPS_END3                            = 0.382
 EPS_START4                          = 1
 EPS_END4                            = 0.1
 
+REPLAY_MEMORY_SIZE1                 = 131072
+
 START_FRAME                         = 1
 EPS_END_FRAME                       = 1048512
 END_FRAME                           = 1500000
 
-SAVE_FRAME                          = 500000
-REPLAY_START_SIZE                   = 50000
+SAVE_FRAME                          = 50000
+REPLAY_START_SIZE                   = 65536
